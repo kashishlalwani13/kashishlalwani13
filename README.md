@@ -1,76 +1,65 @@
-# Kashish Lalwani · Portfolio
+<h1>Hi, I'm Kashish 👋</h1>
 
-My personal portfolio site, built with Next.js and Tailwind CSS.
+**Data analyst turning messy data into clear decisions.** Finance, healthcare and applied AI.
 
-**Live:** [kashishlalwani.com](https://www.kashishlalwani.com)
+I like the part of data work most people skip: making sure the numbers are right before anyone makes a decision with them. Then I automate the repetitive parts and add AI where it actually helps.
 
-## About me
+- 🎓 MS in Data Science, Stony Brook University (2026)
+- 📊 Hands-on work in finance reporting, manufacturing analytics, research data and an AI startup
+- 📍 Texas, USA
+- 🌐 Portfolio: [kashishlalwani.com](https://www.kashishlalwani.com)
 
-I'm a data analyst who turns messy data into clear decisions. My focus is analytics, data quality and reporting, with applied AI as an extra strength. I'm interested in finance and healthcare, where good data leads to better decisions.
+---
 
-- MS in Data Science, Stony Brook University (2026)
-- Hands-on work in finance reporting, manufacturing analytics, research data and an AI startup
-- Based in Texas, USA
+### What I've done
 
-## What's on the site
+- Reconciled **200K+ records** from systems that named the same machines differently. The evidence helped engineering cut scrap by 22% and returns by 15%.
+- Automated **four reporting pipelines**, saving 25+ hours a month, and built KPI dashboards that cut reporting time by 35%.
+- Ran forecasting and cost scenario analysis that **supported a 12% margin gain**.
+- Built evaluation pipelines over **1M+ records and 100K+ queries** to measure how stable search rankings are.
+- Ran A/B tests and cohort analysis across **50K+ daily events** at an early-stage AI startup.
 
-| Section | What you'll find |
-|---|---|
-| Experience | Roles at Stony Brook, Versaunt, Saroj Group and Kamala Plastics |
-| Projects | Case studies in Problem, What I did, Tools, Result, What I learned format, filterable by Analytics, Finance, Healthcare and AI |
-| How I work | The habits I keep: check the data first, reconcile totals, document, explain plainly, flag risk early |
-| Toolkit | Analytics and BI, Data Engineering, AI and ML |
-| Writing | My articles on Medium |
-| Wins and certifications | Leadership, awards and selected certifications |
+---
 
-## Featured projects
+### Featured projects
 
-- **[Aegis: Cost-Aware Fraud Detection](https://github.com/kashishlalwani13/aegis-fraud-detection)**: picks the fraud threshold by what each mistake costs. F1 0.9942 on test data, with about $19.4M in modeled exposure reduction.
-- **[AI Portfolio Risk and Forecasting](https://github.com/kashishlalwani13/AI-Portfolio-Management)**: CVaR-based optimization. Sharpe ratio up 15%, downside risk down 28%.
-- **[Search Ranking Stability (PIR / PB)](https://github.com/kashishlalwani13/pirpb)**: measures how much search rankings move when a question is reworded.
-- **[Clinical Notes to Structured Data](https://github.com/kashishlalwani13/Structured-Clinical-Data-Pipeline-)**: NLP pipeline for rare disease notes. Harvard HackRare 2026 finalist.
-- **[Formula 1 Performance Analytics](https://github.com/kashishlalwani13/Formula1-Performance-Analytics)**: 150K+ telemetry records turned into 20+ KPIs.
+| Project | What it does | Area |
+|---|---|---|
+| [Aegis](https://github.com/kashishlalwani13/aegis-fraud-detection) | Fraud detection that picks the threshold by cost. F1 0.9942, about $19.4M in modeled exposure reduction | Finance · AI |
+| [AI Portfolio Risk](https://github.com/kashishlalwani13/AI-Portfolio-Management) | CVaR-based optimization. Sharpe +15%, downside risk −28% | Finance |
+| [PIR / PB](https://github.com/kashishlalwani13/pirpb) | Measures how much search rankings move when a question is reworded | Analytics |
+| [Clinical Notes Pipeline](https://github.com/kashishlalwani13/Structured-Clinical-Data-Pipeline-) | Finds negated and uncertain symptoms in rare disease notes. Harvard HackRare 2026 finalist | Healthcare · AI |
+| [Formula 1 Analytics](https://github.com/kashishlalwani13/Formula1-Performance-Analytics) | 150K+ telemetry records turned into 20+ KPIs | Analytics |
 
-## Tech stack
+---
 
-- **Framework:** Next.js (App Router), TypeScript
-- **Styling:** Tailwind CSS
-- **Fonts:** Cormorant Garamond, Manrope and JetBrains Mono, via `next/font`
-- **Hosting:** Vercel
+### Toolkit
 
-## Project structure
+**Analytics and BI:** SQL · Excel · Tableau · Power BI · KPI design · A/B testing · Cohort analysis · Forecasting · Root-cause analysis
 
-```
-Kashish-Portfolio/
-├── frontend/
-│   ├── app/
-│   │   ├── layout.tsx
-│   │   └── page.tsx        # all page content and sections live here
-│   ├── public/
-│   │   ├── images/
-│   │   │   └── profile.jpg
-│   │   └── Kashish_Resume.pdf
-│   ├── globals.css
-│   └── next.config.ts
-└── README.md
-```
+**Data engineering:** Python · Pandas · ETL · Data validation · PostgreSQL · PySpark · Databricks
 
-## Run it locally
+**AI and ML:** Predictive modeling · Model evaluation · XGBoost · scikit-learn · NLP (spaCy) · RAG basics · LangChain · MLflow
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+---
 
-Then open http://localhost:3000.
+### Writing
 
-## Updating content
+- [The Threshold Is a Business Decision, Not a Statistical One](https://medium.com/@kaashishlalwani/the-threshold-is-a-business-decision-not-a-statistical-one-db6ab69efa0b)
+- [7 Years. That's How Long Rare Disease Patients Wait for a Correct Diagnosis.](https://medium.com/@kaashishlalwani/7-years-thats-how-long-rare-disease-patients-wait-for-a-correct-diagnosis-b15b775ca801)
+- [Same Question, Different Words: Do Search Rankings Stay Stable?](https://medium.com/@kaashishlalwani/same-question-different-words-do-search-rankings-stay-stable-2bf28c07cf20)
+- [They Made It Hard to Leave. I Wanted to Know Why.](https://medium.com/@kaashishlalwani/they-made-it-hard-to-leave-i-wanted-to-know-why-38146f534b66)
 
-All content (experience, projects, certifications, writing) lives in plain arrays at the top of `frontend/app/page.tsx`. To add a project or role, add an entry to the matching array. The layout picks it up automatically.
+---
 
-## Contact
+### Off the clock
 
-- Email: work.kashishlalwani@gmail.com
-- LinkedIn: [linkedin.com/in/kashishlalwani13](https://linkedin.com/in/kashishlalwani13)
-- Medium: [medium.com/@kaashishlalwani](https://medium.com/@kaashishlalwani)
+♟ Two-time district chess champion · 🎵 Music · 📈 Markets · 💃 Indian classical dance · ☕ Coffee
+
+### Say hi
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kashishlalwani13-2a1810?style=flat-square&logo=linkedin&logoColor=f2e8d5)](https://linkedin.com/in/kashishlalwani13)
+[![Medium](https://img.shields.io/badge/Medium-kaashishlalwani-2a1810?style=flat-square&logo=medium&logoColor=f2e8d5)](https://medium.com/@kaashishlalwani)
+[![Portfolio](https://img.shields.io/badge/Portfolio-visit-c9a27a?style=flat-square)](https://www.kashishlalwani.com)
+
+📧 work.kashishlalwani@gmail.com
